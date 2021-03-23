@@ -89,18 +89,6 @@ main > .box {
   height: 360px;
 }
 
-// .btn{
-//   padding: 0.5em;
-//   background-color: #6690fa;
-//   border-radius: 15px;
-//   text-decoration: none;
-//   color: #fff;
-//   font-weight: 600;
-// }
-// .btn:hover{
-//   background-color: #4066c5;
-//   color: rgb(207, 207, 207)
-// }
 
 @media screen and (max-width: 1200px) {
   .box {

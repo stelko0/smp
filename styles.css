@@ -6,18 +6,21 @@ body {
   margin: 0;
 }
 
+.box-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4em;
+}
+
 .box {
-  width: 500px;
-  height: 300px;
-  position: absolute;
-  display: block;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  /* -webkit-transform: translate(-50%, -50%); */
+  /* transform: translate(-50%, -50%); */
   padding: 1em 2em;
   background-color: #131313;
   border-radius: 25px;
+  color: #fff;
 }
 
 .container > p {
@@ -28,12 +31,7 @@ body {
 
 * {
   font-family: "Open Sans", sans-serif;
-}
-
-body {
-  padding: 0.5em;
-  background-color: #131313;
-  color: #eaeaea;
+  margin: 0;
 }
 
 .status {
@@ -83,9 +81,20 @@ main > .box {
   height: 360px;
 }
 
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: revert;
+  align-items: center;
+}
+
+#coordinates {
+  color: #fff;
+  text-align: center;
+}
+
 @media screen and (max-width: 1200px) {
   .box {
-    width: 200px;
+    width: 300px;
   }
   main > .box > button {
     margin-top: 10px;

@@ -9,7 +9,7 @@ function getServerInfo(ip, port) {
 }
 
 function updateServerInfo() {
-  getServerInfo("87.97.130.141").then(function (serverInfo) {
+  getServerInfo("89.215.207.85").then(function (serverInfo) {
     const { online, players } = serverInfo;
 
     if (online) {
