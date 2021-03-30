@@ -53,15 +53,23 @@
     </nav>
 
     <main>
-      <div class="box-wrapper">
-        <div class="box">
-          <div id="coordinates">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1>Add / Remove waypoints</h1>
+            <div class="input-group">
+              <input type="text" class="form-control" id="candidate" placeholder="Enter Name, X, Y, Z" required>
+              <div class="input-group-append">
+                
+              </div>
+              <button onclick="addWaypoint()" class="btn butn-add" type="button">Add waypoint</button>
+              <button onclick="removeWaypoint()" class="btn butn-remove" type="button">Remove waypoint</button>
+            </div>
+          
+            <ul id="dynamic-list">
+              
 
-          </div>
-        </div>
-        <div class="box">
-          <div id="coordinates2">
-            
+            </ul>
           </div>
         </div>
       </div>
@@ -75,7 +83,6 @@
     ></script>
 
     <!-- My Custom Scripts -->
-    <script src="mc.js"></script>
     <script src="index.js"></script>
   </body>
 </html>

@@ -87,10 +87,82 @@ main > .box {
   align-items: center;
 }
 
-#coordinates {
-  color: #fff;
-  text-align: center;
+.input-group{
+  margin: 50px 0px;
 }
+
+input{
+  display: block;
+}
+
+.input-group > input{
+  height: 45px;
+  width: 100vh;
+  display: block;
+}
+
+.input-group-append{
+  display: block;
+}
+
+.butn-add{
+  background-color: rgb(12,187,50);
+  color: white;
+  padding: 0px 63px;
+  font-weight: 700;
+}
+
+.butn-remove{
+  background-color: rgb(187,12,12);
+  color: white;
+  padding: 0px 63px;
+  font-weight: 700;
+}
+ ul{
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding-left: 0;
+  margin-bottom: 0;
+}  
+
+.container li{
+  position: relative;
+  display: block;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,.125);
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+  border-bottom-left-radius: .25rem;
+  border-bottom-right-radius: .25rem;
+}  
+
+element{
+  width: 450px;
+  height: 300px;
+  background-color: rgb(50, 50, 55);
+  border-radius: 15px;
+  text-align: center;
+  padding: 1.2em;
+  margin-left: 20px;
+}
+
+/* #coords-box ul li{
+  text-align: start;
+  background: none;
+  border: 0;
+  font-size: 24px;
+  padding-top: 0.5em;
+} */
+
+
+
+
+
+
+
 
 @media screen and (max-width: 1200px) {
   .box {
